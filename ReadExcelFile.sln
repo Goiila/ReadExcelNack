@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadExcelFile", "ReadExcelFile\ReadExcelFile.csproj", "{A48DD071-B492-4D11-B4E2-FAE1413CA9F7}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "ReadExcel", "ReadExcel\ReadExcel.isproj", "{ACE0F13B-31C4-4491-A92F-92D1D5C1AC25}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A48DD071-B492-4D11-B4E2-FAE1413CA9F7} = {A48DD071-B492-4D11-B4E2-FAE1413CA9F7}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A48DD071-B492-4D11-B4E2-FAE1413CA9F7}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{A48DD071-B492-4D11-B4E2-FAE1413CA9F7}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{A48DD071-B492-4D11-B4E2-FAE1413CA9F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48DD071-B492-4D11-B4E2-FAE1413CA9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48DD071-B492-4D11-B4E2-FAE1413CA9F7}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48DD071-B492-4D11-B4E2-FAE1413CA9F7}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{A48DD071-B492-4D11-B4E2-FAE1413CA9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48DD071-B492-4D11-B4E2-FAE1413CA9F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A48DD071-B492-4D11-B4E2-FAE1413CA9F7}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{A48DD071-B492-4D11-B4E2-FAE1413CA9F7}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{ACE0F13B-31C4-4491-A92F-92D1D5C1AC25}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{ACE0F13B-31C4-4491-A92F-92D1D5C1AC25}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{ACE0F13B-31C4-4491-A92F-92D1D5C1AC25}.Debug|Any CPU.ActiveCfg = SingleImage
+		{ACE0F13B-31C4-4491-A92F-92D1D5C1AC25}.Debug|Any CPU.Build.0 = SingleImage
+		{ACE0F13B-31C4-4491-A92F-92D1D5C1AC25}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{ACE0F13B-31C4-4491-A92F-92D1D5C1AC25}.DVD-5|Any CPU.Build.0 = DVD-5
+		{ACE0F13B-31C4-4491-A92F-92D1D5C1AC25}.Release|Any CPU.ActiveCfg = SingleImage
+		{ACE0F13B-31C4-4491-A92F-92D1D5C1AC25}.Release|Any CPU.Build.0 = SingleImage
+		{ACE0F13B-31C4-4491-A92F-92D1D5C1AC25}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{ACE0F13B-31C4-4491-A92F-92D1D5C1AC25}.SingleImage|Any CPU.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
